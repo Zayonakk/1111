@@ -1,0 +1,336 @@
+/* Все классы который я внес в комментарий не были использованы в коде, но я добавил их для удобстава правок в коде */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #F8F8F8;
+    height: 100%;
+    font-family: "Montserrat";
+}
+
+.profile-user--container {
+    max-width: 610px;
+    width: 100%;
+    height: 246px;
+    margin: 105px auto;
+}
+
+.profile-user--block {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background-color: #FFFF;
+    display: flex;
+}
+
+.user-block--basicinfo {
+    position: absolute;
+    margin-left: 203px;
+    display: block;
+
+}
+
+/* .block-basicinfo--name {При надобности изменяй данный класс} */
+
+.name {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    color: #4A4A4A;
+}
+
+/* .block-basicinfo--lastactive{При надобнсоит изменяй данный класс} */
+
+.lastactive {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #979797;
+}
+
+/* .user-block--functions {При надобности изменяй данный класс} */
+
+.block-function--logo{
+    border-radius: 5px;
+}
+
+.logotype {
+    border-radius: 5px;
+}
+
+.block-function--btns {
+    padding: 0px;
+    margin: 0px;
+}
+
+.function-btns-firststroke {
+    display: flex;
+}
+
+.btns-onestroke--one {
+    min-width: 10px;
+    max-width: 145px;
+    width: 100%;
+} 
+
+.btn-one {
+    min-width: 10px;
+    max-width: 143px;
+    width: 100%;
+    height: 31px;
+    background: #2B83EB;
+    box-shadow: 0px 7px 22px rgba(0, 0, 0, 0.09);
+    border-radius: 4px 0px 0px 4px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor:pointer;
+}
+
+.btns-onestroke--two {
+    min-width: 10px;
+    max-width: 37px;
+    width: 100%;
+}
+
+.btn-two {
+    display: flex;
+    align-items: center;
+    min-width: 10px;
+    max-width: 37px;
+    width: 100%;
+    height: 31px;
+    border: 1.3px solid #2B83EB;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 7px 22px rgba(0, 0, 0, 0.09));
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+.btn-two img{
+    margin: 0 auto;
+}
+
+.function-btns--secondstroke {
+    margin-top: 3px;
+}
+
+/* .btns-twostroke--one {Ты знаешь что делать} */
+
+.btn-three {
+    min-width: 10px;
+    max-width: 182px;
+    width: 100%;
+    height: 31px;
+    background: #E95757;
+    box-shadow: 0px 7px 22px rgba(0, 0, 0, 0.09);
+    border-radius: 4px;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.user-block--info {
+    display: flex;
+    margin-left: 21px;
+    margin-top: 64px;
+}
+
+/* .block-info--def {} */
+
+/* .info-def--dataregistred {} */
+
+.dataregistred-def {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #979797;
+}
+
+.info-def--telegramlink {
+    margin-top: 3px;
+}
+
+.telegramlink-def {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #979797;
+}
+
+.info-def--vklink {
+    margin-top: 3px;
+}
+
+.vklink-def {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #979797;
+}
+
+.info-def--selledaccount {
+    margin-top: 9px;
+}
+
+.selledaccount-def {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #979797;
+}
+
+.info-def--purchasedaccount {
+    margin-top: 3px;
+}
+
+.purchasedaccount-def {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #979797;
+}
+
+.info-def--reputacion {
+    margin-top: 9px;
+}
+
+.reputacion-def {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #979797;
+}
+
+.info-def--btnmoreinfo {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.def-btnmoreinfo {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.def-btnmore--img {
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.block-info--user {
+    text-align: start;
+}
+
+/* .info-user--dataregistred {} */
+
+.dataregistred-user {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.info-user--telegramlink {
+    margin-top: 3px;
+}
+
+.telegramlink-user {
+    display: flex;
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    color: #1175EB;
+}
+
+.info-user--vklink {
+    margin-top: 3px;
+}
+
+.vklink-user {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    cursor: pointer;
+    color: #1175EB;
+}
+
+.info-user--selledaccount {
+    margin-top: 11px;
+}
+
+.selledaccount-user {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.amount-sellaccounts {
+    color: #2B83EB;
+}
+
+.info-user--purchasedaccount {
+    margin-top: 5px;
+}
+
+.purchasedaccount-user {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #4A4A4A;
+}
+
+.amount-purchaccounts {
+    color: #2B83EB;
+}
+
+.info-user--reputacion {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.reputacion-user {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #4A4A4A;
+}
+
+.like {
+    width: 15px;
+    margin-left: 5px;
+}
